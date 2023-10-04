@@ -64,8 +64,6 @@ const Popup = () => {
     }
   };
 
-  
-
   const handleEditWord = async (index: number) => {
     const updatedWord = prompt('Edit the word:', words[index].word);
       
@@ -158,9 +156,7 @@ const Popup = () => {
         src="icon128.png" // Replace with your logo URL
         alt="Logo"
         className="w-6 h-6"
-      />
-   
-    
+      />  
     
   </div>
   <div className="space-x-4">
@@ -178,8 +174,6 @@ const Popup = () => {
 };
 
 export default Popup;
-
-
 
 const container = document.createElement('div')
 container.className = 'w-[250px] h-[500px] bg-gray-200'; // Adjust the radius as needed
